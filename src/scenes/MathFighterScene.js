@@ -110,6 +110,7 @@ export default class MathFighterScene extends Phaser.Scene{
         this.time.delayedCall(500, () =>{
           this.createSlash(this.enemy.x-60,this.enemy.y,2,-600,true)
         })
+        this.enemyAttack = true
       }
     }
     createAnimation(){
